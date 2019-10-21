@@ -55,6 +55,7 @@ const Form = ({ track }) => {
     if (track.toLowerCase() === input.toLowerCase()) {
       setRight(true);
       setWrong(false);
+      setInput('');
     } else {
       setRight(false);
       setWrong(true);

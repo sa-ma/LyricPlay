@@ -1,5 +1,7 @@
 # Lyric Play
 
+[![CircleCI](https://circleci.com/gh/sa-ma/LyricPlay.svg?style=svg)](https://circleci.com/gh/sa-ma/LyricPlay)
+
 A trivia app that checks your knowledge of lyrics of trending songs. Checkout the demo [here](https://lyricplay.netlify.com)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and powered by [Musixmatch API](https://developer.musixmatch.com/).
