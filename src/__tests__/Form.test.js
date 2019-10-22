@@ -14,7 +14,8 @@ describe('<Form/>', () => {
   });
   it('should update data on change event', () => {
     const props = {
-      track: 'uyo meyo'
+      track: 'uyo meyo',
+      nextLyric: jest.fn()
     };
     const { getByTestId } = render(<Form {...props} />);
     const textField = getByTestId('trackInput');
@@ -24,7 +25,8 @@ describe('<Form/>', () => {
   });
   it('check if track title is incorrect and close button close notification', () => {
     const props = {
-      track: 'uyo meyo'
+      track: 'uyo meyo',
+      nextLyric: jest.fn()
     };
 
     const { getByTestId } = render(<Form {...props} />);
@@ -37,7 +39,8 @@ describe('<Form/>', () => {
   });
   it('check if track title is correct', () => {
     const props = {
-      track: 'cassanova'
+      track: 'cassanova',
+      nextLyric: jest.fn()
     };
 
     const { getByTestId } = render(<Form {...props} />);

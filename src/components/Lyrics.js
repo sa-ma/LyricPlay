@@ -118,7 +118,7 @@ const Lyrics = (props) => {
           </IconButton>
         </Tooltip>
       </Card>
-      <Form track={trackName} />
+      <Form track={trackName} nextLyric={handleClick} />
     </Box>
   );
 };

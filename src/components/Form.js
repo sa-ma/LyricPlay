@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const Form = ({ track }) => {
+const Form = ({ track, nextLyric }) => {
   const classes = useStyles();
   const [input, setInput] = useState('');
   const [wrong, setWrong] = useState();
@@ -56,6 +56,7 @@ const Form = ({ track }) => {
       setRight(true);
       setWrong(false);
       setInput('');
+      nextLyric(event);
     } else {
       setRight(false);
       setWrong(true);
