@@ -32,7 +32,7 @@ const Footer = () => {
       Made with love and passion by
       <a
         data-testid="footer-link"
-        href="https://samailabala.com"
+        href="http://samailabala.com"
         className={classes.footerLink}
         target="_blank"
         rel="noreferrer noopener"
